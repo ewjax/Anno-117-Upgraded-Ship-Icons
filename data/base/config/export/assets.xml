@@ -1,0 +1,175 @@
+<ModOps>
+
+    <!-- Asset ModOp workaround: use it once before you use asset modops -->
+    <ModOp Add="/AssetList/Groups[last()]">
+        <Group>
+            <Assets />
+        </Group>
+    </ModOp>
+
+    <!--
+    new style asset modop: use Type="Replace" or "Merge" and specify the path to the 
+    Object you want to modify, then put the modified Object in the ModOp body, 
+    you can modify any field of the Object this way, and you can also add 
+    new fields if needed, just make sure the GUID of the Object is correct 
+    and matches the one in the game data, otherwise it will create a new 
+    Object instead of modifying the existing one
+
+    <ModOp Type="Merge" GUID="5473" Path="Values/Object">
+    <ModOp Merge="@5473/Object">
+
+    <ModOp Type="Merge" GUID="5473" Path="Values/ShipModuleOwner/ShipModulesConfig">
+
+    -->
+
+	<!-- Penteconter Civilian -->
+    <ModOp Merge="@37222/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@501367/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@501372/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@501237/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140601/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_civilian.png</IconFilename>
+    </ModOp>
+
+	<!-- Penteconter Custom -->
+    <ModOp Merge="@140608/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_custom.png</IconFilename>
+    </ModOp>
+
+	<!-- Penteconter Military -->
+    <ModOp Merge="@140609/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_military.png</IconFilename>
+    </ModOp>
+
+
+
+	<!-- Trireme Civilian -->
+    <ModOp Merge="@37223/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@82871/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140610/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_civilian.png</IconFilename>
+    </ModOp>
+
+	<!-- Trireme Custom -->
+    <ModOp Merge="@140611/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_custom.png</IconFilename>
+    </ModOp>
+
+	<!-- Trireme Military -->
+    <ModOp Merge="@94860/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@43094/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@44483/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@77570/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@37990/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@51270/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@51271/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@38532/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@49877/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140612/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
+
+
+	<!-- Quinquereme Civilian -->
+    <ModOp Merge="@37224/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@94872/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@38509/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@38510/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@38528/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@49878/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@114477/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@121354/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140613/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
+
+	<!-- Quinquereme Custom -->
+    <ModOp Merge="@121246/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_custom.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140614/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_custom.png</IconFilename>
+    </ModOp>
+
+	<!-- Quinquereme Military -->
+    <ModOp Merge="@144607/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@77568/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@51273/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@51274/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@51272/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@93633/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+    <ModOp Merge="@140616/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
+    </ModOp>
+
+
+
+	<!-- flagship -->
+    <ModOp Merge="@5473/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_flagship.png</IconFilename>
+    </ModOp>
+
+
+
+
+</ModOps>
+
+

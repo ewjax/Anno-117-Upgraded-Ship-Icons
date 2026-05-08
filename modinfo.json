@@ -1,0 +1,59 @@
+{
+   "Version": "1.0.0",
+   "Anno": 8,
+   "ModID": "upgraded-ship-icons-ewjax",
+   "Difficulty": "unchanged",
+   "GameSetup": {
+	  "RequiresNewGame": false,
+	  "SafeToRemove": true,
+	  "Multiplayer": true,
+	  "Campaign": true
+},
+   "Dependencies": {
+	  "Require": [],
+	  "Optional": [],
+	  "LoadAfter": [],
+	  "Deprecate": []
+},
+   "Category": {
+	  "Chinese": "Misc",
+	  "English": "Misc",
+	  "French": "Misc",
+	  "German": "Misc",
+	  "Italian": "Misc",
+	  "Japanese": "Misc",
+	  "Korean": "Misc",
+	  "Polish": "Misc",
+	  "Russian": "Misc",
+	  "Spanish": "Misc",
+	  "Taiwanese": "Misc"
+},
+   "ModName": {
+	  "Chinese": "Upgraded Ship Icons (ewjax)",
+	  "English": "Upgraded Ship Icons (ewjax)",
+	  "French": "Upgraded Ship Icons (ewjax)",
+	  "German": "Upgraded Ship Icons (ewjax)",
+	  "Italian": "Upgraded Ship Icons (ewjax)",
+	  "Japanese": "Upgraded Ship Icons (ewjax)",
+	  "Korean": "Upgraded Ship Icons (ewjax)",
+	  "Polish": "Upgraded Ship Icons (ewjax)",
+	  "Russian": "Upgraded Ship Icons (ewjax)",
+	  "Spanish": "Upgraded Ship Icons (ewjax)",
+	  "Taiwanese": "Upgraded Ship Icons (ewjax)"
+},
+   "Description": {
+	  "Chinese": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "English": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "French": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "German": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Italian": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Japanese": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Korean": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Polish": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Russian": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Spanish": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes",
+	  "Taiwanese": "#  Upgraded Ship Icons \n\n This mod provides upgraded icons for Penteconters, Triremes, and Quinqueremes"
+},
+   "CreatorName": "ewjax",
+   "CreatorContact": ""
+}

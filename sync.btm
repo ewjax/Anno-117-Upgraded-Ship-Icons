@@ -1,0 +1,4 @@
+robocopy "D:\dev\Anno-117\[Misc] Upgraded Ship Icons (ewjax)\data" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Upgraded Ship Icons (ewjax)\data" /mir
+copy /u "D:\dev\Anno-117\[Misc] Upgraded Ship Icons (ewjax)\modinfo.json" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Upgraded Ship Icons (ewjax)"
+copy /u "D:\dev\Anno-117\[Misc] Upgraded Ship Icons (ewjax)\thumbnail.png" "C:\Users\ewjax\Documents\Anno 117 - Pax Romana\mods\[Misc] Upgraded Ship Icons (ewjax)"
+
