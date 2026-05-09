@@ -48,7 +48,15 @@
     <ModOp Merge="@140609/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_military.png</IconFilename>
     </ModOp>
+    <ModOp Merge="@43094/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier1_military.png</IconFilename>
+    </ModOp>
 
+    <!-- debugging, trying to figure outo why civilian ships are being given military icons in game
+    <ModOp Merge="@27991/ObjectmenuUnitScene/UnitShipGroupCategory/Penteconter/MilitaryShipIcon">
+        <MilitaryShipIcon>140608</MilitaryShipIcon>
+    </ModOp>    
+    -->
 
 
 	<!-- Trireme Civilian -->
@@ -61,6 +69,9 @@
     <ModOp Merge="@140610/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_civilian.png</IconFilename>
     </ModOp>
+    <ModOp Merge="@38532/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_civilian.png</IconFilename>
+    </ModOp>
 
 	<!-- Trireme Custom -->
     <ModOp Merge="@140611/Standard">
@@ -69,9 +80,6 @@
 
 	<!-- Trireme Military -->
     <ModOp Merge="@94860/Standard">
-        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
-    </ModOp>
-    <ModOp Merge="@43094/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
     </ModOp>
     <ModOp Merge="@44483/Standard">
@@ -83,13 +91,13 @@
     <ModOp Merge="@37990/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
     </ModOp>
+    <ModOp Merge="@51269/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
+    </ModOp>
     <ModOp Merge="@51270/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
     </ModOp>
     <ModOp Merge="@51271/Standard">
-        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
-    </ModOp>
-    <ModOp Merge="@38532/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier2_military.png</IconFilename>
     </ModOp>
     <ModOp Merge="@49877/Standard">
@@ -128,16 +136,17 @@
     <ModOp Merge="@140613/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
     </ModOp>
+    <ModOp Merge="@121246/Standard">
+        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_civilian.png</IconFilename>
+    </ModOp>
 
 	<!-- Quinquereme Custom -->
-    <ModOp Merge="@121246/Standard">
-        <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_custom.png</IconFilename>
-    </ModOp>
     <ModOp Merge="@140614/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_custom.png</IconFilename>
     </ModOp>
 
 	<!-- Quinquereme Military -->
+
     <ModOp Merge="@144607/Standard">
         <IconFilename>data/ewjax/ui/fhd/base/icon_content/ship/fancy_tier3_military.png</IconFilename>
     </ModOp>
